@@ -1,0 +1,35 @@
+body {
+    background-color: lightblue;
+	line-height: 1.4;
+	font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    overflow-x: hidden;
+}
+
+.header{
+    background: url('../img/labengki.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 690px;
+    position: relative;
+}
+.bg-color
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 690px;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+    padding: 5px 10px;
+    font-size: 20px;
+    line-height: 54px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: transparent;
+    color: white ;
+    -webkit-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+}
